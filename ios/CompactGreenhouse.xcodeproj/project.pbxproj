@@ -8,28 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CompactGreenhouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CompactGreenhouseTests.m */; };
-		0D8A4E2D2B114F48B51E4971 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 018E2C1ACC1541E38B90EDD4 /* MaterialCommunityIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		18CF61580A854E059E8B9ED7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA1C72E836B4D6891292ECC /* SimpleLineIcons.ttf */; };
-		259CC237E2F74A088190FCBE /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7336DC56E45BD9EA7001F /* Entypo.ttf */; };
-		3D1EDE2FD2F447E89A3BF78E /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA6928534AF24225834F8F09 /* MaterialIcons.ttf */; };
-		5434A80039FA4B22921A2AD0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB600AD81C4A1EAB7F0622 /* Foundation.ttf */; };
-		6751301DA9894DBF8D7EAFB3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EE3BE39EBD45D79D6B1843 /* Fontisto.ttf */; };
+		6C8E38EBBC0C9F856F43C4F5 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A98EC8050ADD98529A9D623F /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9090850CEF994A44AA85A586 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77CE01249350481BA20B6403 /* Ionicons.ttf */; };
-		954D3F1A44F0456EA7DC3211 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0210C533F2F74F4ABC5B527F /* Feather.ttf */; };
-		98707171AB39ECE7F3FABD80 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A446E13A02531AAA99D779 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */; };
-		9F7C96FE46DD45C8AB252083 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613E2AF53E1F4BACAB8B4415 /* FontAwesome5_Regular.ttf */; };
-		BD656419CF0146B49806ABB6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D231C0786F0B4BFCBC2836EF /* FontAwesome.ttf */; };
-		C7A660F7495D4F08844DE5E2 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D45F1076F1D24138BFFCEEC5 /* Octicons.ttf */; };
-		D9F53A4C9433430982E06BC6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7D8B385E24C4363A3351AA9 /* Zocial.ttf */; };
-		E1938A610C7245D3BC66B12B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC1DF03555DF4898BC425CA2 /* AntDesign.ttf */; };
-		E69C27BC0FCF43B0985F95DB /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9700E053892D4F79B06DD562 /* FontAwesome5_Brands.ttf */; };
-		EF1EA0164DBC42129F877C4A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C48DE7AFFCBF4761B96DD993 /* EvilIcons.ttf */; };
-		F62D39C1991280CC26DBF6AF /* libPods-CompactGreenhouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDB14FF6B5F115B9BDC24A8 /* libPods-CompactGreenhouse.a */; };
-		FCA8D44ABCE94EE1B383CFC5 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130889327064456F81B32C8D /* FontAwesome5_Solid.ttf */; };
+		CC71C38FDF26A1E9BF956E8A /* libPods-CompactGreenhouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAC5B4B569E344ABEC0A027 /* libPods-CompactGreenhouse.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,36 +30,20 @@
 		00E356EE1AD99517003FC87E /* CompactGreenhouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompactGreenhouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CompactGreenhouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompactGreenhouseTests.m; sourceTree = "<group>"; };
-		018E2C1ACC1541E38B90EDD4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		0210C533F2F74F4ABC5B527F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		130889327064456F81B32C8D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CompactGreenhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompactGreenhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CompactGreenhouse/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CompactGreenhouse/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CompactGreenhouse/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CompactGreenhouse/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CompactGreenhouse/main.m; sourceTree = "<group>"; };
-		1FD7336DC56E45BD9EA7001F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		2EDB600AD81C4A1EAB7F0622 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		3DE8AF806AF8CD120D2E356C /* Pods-CompactGreenhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse.debug.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse.debug.xcconfig"; sourceTree = "<group>"; };
-		5F30084AD5651B2D2F01D735 /* Pods-CompactGreenhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse.release.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse.release.xcconfig"; sourceTree = "<group>"; };
-		613E2AF53E1F4BACAB8B4415 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		6EDB14FF6B5F115B9BDC24A8 /* libPods-CompactGreenhouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CompactGreenhouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70A446E13A02531AAA99D779 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CompactGreenhouse-CompactGreenhouseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77CE01249350481BA20B6403 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		1D619927E2227E1ABB10A605 /* Pods-CompactGreenhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse.release.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse.release.xcconfig"; sourceTree = "<group>"; };
+		4E0CA12ABE57C58E2E560F5F /* Pods-CompactGreenhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse.debug.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse.debug.xcconfig"; sourceTree = "<group>"; };
+		5FAC5B4B569E344ABEC0A027 /* libPods-CompactGreenhouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CompactGreenhouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CompactGreenhouse/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		91EE3BE39EBD45D79D6B1843 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		9700E053892D4F79B06DD562 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		A1DD0C490B106CCA37946FBD /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig"; sourceTree = "<group>"; };
-		B7D8B385E24C4363A3351AA9 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		BA6928534AF24225834F8F09 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		C117E76A318F202B6918F608 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C48DE7AFFCBF4761B96DD993 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		CC1DF03555DF4898BC425CA2 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		D231C0786F0B4BFCBC2836EF /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		D45F1076F1D24138BFFCEEC5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A98EC8050ADD98529A9D623F /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CompactGreenhouse-CompactGreenhouseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEA882ABCADBD0392F14FBE /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBF1FAAC3F1A5FCAD02F05F1 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig"; path = "Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FAA1C72E836B4D6891292ECC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98707171AB39ECE7F3FABD80 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a in Frameworks */,
+				6C8E38EBBC0C9F856F43C4F5 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62D39C1991280CC26DBF6AF /* libPods-CompactGreenhouse.a in Frameworks */,
+				CC71C38FDF26A1E9BF956E8A /* libPods-CompactGreenhouse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,34 +100,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6EDB14FF6B5F115B9BDC24A8 /* libPods-CompactGreenhouse.a */,
-				70A446E13A02531AAA99D779 /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */,
+				5FAC5B4B569E344ABEC0A027 /* libPods-CompactGreenhouse.a */,
+				A98EC8050ADD98529A9D623F /* libPods-CompactGreenhouse-CompactGreenhouseTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		81BDB8031F9D4B4DB5EBB0F2 /* Resources */ = {
+		824DC6E363E7F59374797746 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC1DF03555DF4898BC425CA2 /* AntDesign.ttf */,
-				1FD7336DC56E45BD9EA7001F /* Entypo.ttf */,
-				C48DE7AFFCBF4761B96DD993 /* EvilIcons.ttf */,
-				0210C533F2F74F4ABC5B527F /* Feather.ttf */,
-				D231C0786F0B4BFCBC2836EF /* FontAwesome.ttf */,
-				9700E053892D4F79B06DD562 /* FontAwesome5_Brands.ttf */,
-				613E2AF53E1F4BACAB8B4415 /* FontAwesome5_Regular.ttf */,
-				130889327064456F81B32C8D /* FontAwesome5_Solid.ttf */,
-				91EE3BE39EBD45D79D6B1843 /* Fontisto.ttf */,
-				2EDB600AD81C4A1EAB7F0622 /* Foundation.ttf */,
-				77CE01249350481BA20B6403 /* Ionicons.ttf */,
-				018E2C1ACC1541E38B90EDD4 /* MaterialCommunityIcons.ttf */,
-				BA6928534AF24225834F8F09 /* MaterialIcons.ttf */,
-				D45F1076F1D24138BFFCEEC5 /* Octicons.ttf */,
-				FAA1C72E836B4D6891292ECC /* SimpleLineIcons.ttf */,
-				B7D8B385E24C4363A3351AA9 /* Zocial.ttf */,
+				4E0CA12ABE57C58E2E560F5F /* Pods-CompactGreenhouse.debug.xcconfig */,
+				1D619927E2227E1ABB10A605 /* Pods-CompactGreenhouse.release.xcconfig */,
+				EBF1FAAC3F1A5FCAD02F05F1 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */,
+				EAEA882ABCADBD0392F14FBE /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */,
 			);
-			name = Resources;
-			path = "";
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -177,8 +133,7 @@
 				00E356EF1AD99517003FC87E /* CompactGreenhouseTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				FEBE4170EA8F6A85FBD588ED /* Pods */,
-				81BDB8031F9D4B4DB5EBB0F2 /* Resources */,
+				824DC6E363E7F59374797746 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,18 +149,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEBE4170EA8F6A85FBD588ED /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DE8AF806AF8CD120D2E356C /* Pods-CompactGreenhouse.debug.xcconfig */,
-				5F30084AD5651B2D2F01D735 /* Pods-CompactGreenhouse.release.xcconfig */,
-				C117E76A318F202B6918F608 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */,
-				A1DD0C490B106CCA37946FBD /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CompactGreenhouseTests" */;
 			buildPhases = (
-				9D10175053C7E3FF86459F8B /* [CP] Check Pods Manifest.lock */,
+				24183A27B0A59F30376B5D0B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				D3E500002E4347B1A968A076 /* [CP] Embed Pods Frameworks */,
-				EA8FB4FD94AEAA1873585327 /* [CP] Copy Pods Resources */,
+				5B09A5F192C53D3A98596B7F /* [CP] Embed Pods Frameworks */,
+				AD962BBE7FE11ACC6C3B8BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CompactGreenhouse" */;
 			buildPhases = (
-				185D9FF1D65F19956F33742B /* [CP] Check Pods Manifest.lock */,
+				3AEF094C21A3469259E82BDF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D1E4D4489D43C2085C6A1B56 /* [CP] Embed Pods Frameworks */,
-				04145EBDA40954CCA3897099 /* [CP] Copy Pods Resources */,
+				68EFA6678B813AA692EC0DE1 /* [CP] Embed Pods Frameworks */,
+				CBD2893C4DADCAFA014CF910 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,22 +245,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				E1938A610C7245D3BC66B12B /* AntDesign.ttf in Resources */,
-				259CC237E2F74A088190FCBE /* Entypo.ttf in Resources */,
-				EF1EA0164DBC42129F877C4A /* EvilIcons.ttf in Resources */,
-				954D3F1A44F0456EA7DC3211 /* Feather.ttf in Resources */,
-				BD656419CF0146B49806ABB6 /* FontAwesome.ttf in Resources */,
-				E69C27BC0FCF43B0985F95DB /* FontAwesome5_Brands.ttf in Resources */,
-				9F7C96FE46DD45C8AB252083 /* FontAwesome5_Regular.ttf in Resources */,
-				FCA8D44ABCE94EE1B383CFC5 /* FontAwesome5_Solid.ttf in Resources */,
-				6751301DA9894DBF8D7EAFB3 /* Fontisto.ttf in Resources */,
-				5434A80039FA4B22921A2AD0 /* Foundation.ttf in Resources */,
-				9090850CEF994A44AA85A586 /* Ionicons.ttf in Resources */,
-				0D8A4E2D2B114F48B51E4971 /* MaterialCommunityIcons.ttf in Resources */,
-				3D1EDE2FD2F447E89A3BF78E /* MaterialIcons.ttf in Resources */,
-				C7A660F7495D4F08844DE5E2 /* Octicons.ttf in Resources */,
-				18CF61580A854E059E8B9ED7 /* SimpleLineIcons.ttf in Resources */,
-				D9F53A4C9433430982E06BC6 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,46 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		04145EBDA40954CCA3897099 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		185D9FF1D65F19956F33742B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CompactGreenhouse-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D10175053C7E3FF86459F8B /* [CP] Check Pods Manifest.lock */ = {
+		24183A27B0A59F30376B5D0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,24 +287,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1E4D4489D43C2085C6A1B56 /* [CP] Embed Pods Frameworks */ = {
+		3AEF094C21A3469259E82BDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompactGreenhouse-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3E500002E4347B1A968A076 /* [CP] Embed Pods Frameworks */ = {
+		5B09A5F192C53D3A98596B7F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,7 +326,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA8FB4FD94AEAA1873585327 /* [CP] Copy Pods Resources */ = {
+		68EFA6678B813AA692EC0DE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD962BBE7FE11ACC6C3B8BF8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse-CompactGreenhouseTests/Pods-CompactGreenhouse-CompactGreenhouseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD2893C4DADCAFA014CF910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompactGreenhouse/Pods-CompactGreenhouse-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -502,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C117E76A318F202B6918F608 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */;
+			baseConfigurationReference = EBF1FAAC3F1A5FCAD02F05F1 /* Pods-CompactGreenhouse-CompactGreenhouseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -529,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DD0C490B106CCA37946FBD /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */;
+			baseConfigurationReference = EAEA882ABCADBD0392F14FBE /* Pods-CompactGreenhouse-CompactGreenhouseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -553,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DE8AF806AF8CD120D2E356C /* Pods-CompactGreenhouse.debug.xcconfig */;
+			baseConfigurationReference = 4E0CA12ABE57C58E2E560F5F /* Pods-CompactGreenhouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -579,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F30084AD5651B2D2F01D735 /* Pods-CompactGreenhouse.release.xcconfig */;
+			baseConfigurationReference = 1D619927E2227E1ABB10A605 /* Pods-CompactGreenhouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
