@@ -1,41 +1,15 @@
 import * as React from 'react';
-import {Button, View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-
-function HomeScreen({navigation}) {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
-      <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate('Detals')}
-      />
-    </View>
-  );
-}
-
-// function DetailsScreen({navigation}) {
-//   return (
-//     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-//       <Text>Details Screen</Text>
-//       <Button
-//         title="Go to Details... again"
-//         onPress={() => navigation.navigate('Details')}
-//       />
-//     </View>
-//   );
-// }
 
 function MyDashboard() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+      style={
+        styles.Screens
+        // backgroundColor: 'crimson',
+      }>
       <Text>My Dashboard!</Text>
     </View>
   );
@@ -43,7 +17,11 @@ function MyDashboard() {
 
 function AllRooms() {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View
+      style={
+        styles.Screens
+        // backgroundColor: 'lightgreen',
+      }>
       <Text>All Rooms!</Text>
     </View>
   );
@@ -51,7 +29,11 @@ function AllRooms() {
 
 function AllSensors() {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View
+      style={
+        styles.Screens
+        // backgroundColor: 'lightblue',
+      }>
       <Text>All Sensors!</Text>
     </View>
   );
@@ -86,5 +68,9 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  TabNavigation: {},
+  Screens: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
