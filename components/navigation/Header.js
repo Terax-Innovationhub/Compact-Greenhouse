@@ -2,18 +2,7 @@ import * as React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-
-export function MyDashboard() {
-  return (
-    <View
-      style={
-        styles.Screens
-        // backgroundColor: 'crimson',
-      }>
-      <Text>My Dashboard!</Text>
-    </View>
-  );
-}
+import {MyDashboard} from '../screens/Dashboard';
 
 function AllRooms() {
   return (
