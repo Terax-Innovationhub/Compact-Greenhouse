@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 
-function MyDashboard() {
+export function MyDashboard() {
   return (
     <View
       style={
