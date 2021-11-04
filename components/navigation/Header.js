@@ -44,24 +44,18 @@ const Tab = createMaterialTopTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator style={styles.TabNavigation}>
-        <Tab.Group
-          screenOptions={{
-            headerTintColor: 'black',
-            headerTitleStyle: {fontWeight: 'bold'},
-          }}>
-          <Tab.Screen
-            name="My Dashboard"
-            component={MyDashboard}
-            options={{title: 'My dashboard'}}
-          />
-          <Tab.Screen
-            name="All Rooms"
-            component={AllRooms}
-            options={{title: 'All Rooms'}}
-          />
-          <Tab.Screen name="All Sensors" component={AllSensors} />
-        </Tab.Group>
+      <Tab.Navigator>
+        <Tab.Screen
+          name="My Dashboard"
+          component={MyDashboard}
+          options={{title: 'My dashboard'}}
+        />
+        <Tab.Screen
+          name="All Rooms"
+          component={AllRooms}
+          options={{title: 'All Rooms'}}
+        />
+        <Tab.Screen name="All Sensors" component={AllSensors} />
       </Tab.Navigator>
     </NavigationContainer>
   );
