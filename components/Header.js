@@ -1,100 +1,90 @@
 import * as React from 'react';
-import {Animated, View, Text, TouchableOpacity, StyleSheet} from 'react-native';
-import {TabView, SceneMap} from 'react-native-tab-view';
-import PagerView from 'react-native-pager-view';
+import {Button, View, Text, StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-// const Header = () => {
+function HomeScreen({navigation}) {
+  return (
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <Text>Home Screen</Text>
+      <Button
+        title="Go to Details"
+        onPress={() => navigation.navigate('Detals')}
+      />
+    </View>
+  );
+}
+
+// function DetailsScreen({navigation}) {
 //   return (
-//     <View style={styles.header}>
-//       <Text style={styles.text}>Dashboard</Text>
+//     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+//       <Text>Details Screen</Text>
+//       <Button
+//         title="Go to Details... again"
+//         onPress={() => navigation.navigate('Details')}
+//       />
 //     </View>
 //   );
-// };
+// }
 
-const FirstRoute = () => (
-  <View key="0" style={[styles.container, {backgroundColor: '#ffffff'}]}>
-    <Text>Hoi Chris</Text>
-  </View>
-);
-const SecondRoute = () => (
-  <View key="1" style={[styles.container, {backgroundColor: '#673ab7'}]} />
-);
+function MyDashboard() {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
+      <Text>My Dashboard!</Text>
+    </View>
+  );
+}
 
-const ThirdRoute = () => (
-  <View key="2" style={[styles.container, {backgroundColor: 'chartreuse'}]} />
-);
+function AllRooms() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text>All Rooms!</Text>
+    </View>
+  );
+}
 
-const FourthRoute = () => (
-  <View key="3" style={[styles.container, {backgroundColor: 'darkorange'}]} />
-);
+function AllSensors() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text>All Sensors!</Text>
+    </View>
+  );
+}
 
-export default class Header extends React.Component {
-  state = {
-    index: 0,
-    routes: [
-      {key: 'first', title: 'My Dashboard'},
-      {key: 'second', title: 'My Rooms'},
-      {key: 'third', title: 'All Rooms'},
-      {key: 'fourth', title: 'All Sensors'},
-    ],
-  };
+const Tab = createMaterialTopTabNavigator();
 
-  _handleIndexChange = index => this.setState({index});
-
-  _renderTabBar = props => {
-    const inputRange = props.navigationState.routes.map((x, i) => i);
-
-    return (
-      <View style={styles.tabBar}>
-        {props.navigationState.routes.map((route, i) => {
-          const opacity = props.position.interpolate({
-            inputRange,
-            outputRange: inputRange.map(inputIndex =>
-              inputIndex === i ? 1 : 0.5,
-            ),
-          });
-
-          return (
-            <TouchableOpacity
-              style={styles.tabItem}
-              onPress={() => this.setState({index: i})}>
-              <Animated.Text style={{opacity}}>{route.title}</Animated.Text>
-            </TouchableOpacity>
-          );
-        })}
-      </View>
-    );
-  };
-
-  _renderScene = SceneMap({
-    first: FirstRoute,
-    second: SecondRoute,
-    third: ThirdRoute,
-    fourth: FourthRoute,
-  });
-
-  render() {
-    return (
-      <TabView
-        navigationState={this.state}
-        renderScene={this._renderScene}
-        renderTabBar={this._renderTabBar}
-        onIndexChange={this._handleIndexChange}
-      />
-    );
-  }
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator style={styles.TabNavigation}>
+        <Tab.Group
+          screenOptions={{
+            headerTintColor: 'black',
+            headerTitleStyle: {fontWeight: 'bold'},
+          }}>
+          <Tab.Screen
+            name="My Dashboard"
+            component={MyDashboard}
+            options={{title: 'My dashboard'}}
+          />
+          <Tab.Screen
+            name="All Rooms"
+            component={AllRooms}
+            options={{title: 'All Rooms'}}
+          />
+          <Tab.Screen name="All Sensors" component={AllSensors} />
+        </Tab.Group>
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  tabBar: {
-    flexDirection: 'row',
-  },
-  tabItem: {
-    flex: 1,
-    alignItems: 'center',
-    padding: 16,
-  },
+  TabNavigation: {},
 });
