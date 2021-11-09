@@ -2,7 +2,7 @@ import * as React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
-import {MyDashboard} from '../screens/Dashboard';
+import MyDashboard from '../screens/Dashboard';
 
 function AllRooms() {
   return (

@@ -1,22 +1,37 @@
 import * as React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
+import SensorCards from '../Card';
 
-export function MyDashboard() {
+export default function MyDashboard() {
   return (
     <View
       style={
-        styles.Screens
+        styles.screens
         // backgroundColor: 'crimson',
       }>
-      <Text>My Dashboard!</Text>
+      <SensorCards />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  Screens: {
+  card: {
+    // backgroundColor: '#f18484',
+    // justifyContent: 'center', //Centered vertically
+    // alignItems: 'center', //Centered horizontally
+  },
+  container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    // margin: 16, // Centered horizontally
+  },
+  screens: {
+    flex: 1,
+    // justifyContent: 'center',
+    // alignItems: 'center',
+  },
+  sectionTitle: {
+    // fontSize: 24,
+    // fontWeight: '600',
+    // color: 'white',
   },
 });
