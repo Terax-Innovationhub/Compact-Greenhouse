@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     // margin: 16, // Centered horizontally
   },
   screens: {
+    backgroundColor: 'red',
     flex: 1,
     // justifyContent: 'center',
     // alignItems: 'center',
