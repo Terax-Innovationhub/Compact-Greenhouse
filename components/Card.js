@@ -1,5 +1,12 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Button,
+  TouchableOpacity,
+  Alert,
+} from 'react-native';
 import {SimpleCard} from '@paraboly/react-native-card';
 import react from 'react';
 
@@ -7,14 +14,16 @@ export default function SensorCards() {
   let allCards = [
     {name: 'Sensor 1', type: 'Airsensor'},
     {name: 'Sensor 2', type: 'Watersensor'},
+    {name: 'Sensor 3', type: 'Dirtsensor'},
   ];
-  for (let i = 0; i < allCards.length; i++) {
-    let cardsOnScreen = allCards.map(function (card) {
-      return <Card text="test" />;
-    });
 
-    return cardsOnScreen;
+  for (let i = 0; i < allCards.length; i++) {
+    console.log(allCards[i]);
+    var cardsOnScreen = allCards.map(function (card) {
+      return <Card name={allCards[i].name} type={allCards[i].type} />;
+    });
   }
+  return cardsOnScreen;
 }
 
 function Card(props) {
@@ -22,8 +31,8 @@ function Card(props) {
     <SimpleCard
       title="Custom width & dynamic height simple card: Multiple Lines"
       styles={{width: 200}}
-      cardTextStyle={{fontSize: 20}}
-      text={'Name:' + props.text}
+      cardTextStyle={{fontSize: 18}}
+      text={'Name: ' + props.name + ', Type: ' + props.type}
       // text="Aliquip officia est cillum ipsum cupidatat occaecat ut cillum quis mollit. Aliquip ipsum officia dolor amet sint et id ut. Mollit ea ut occaecat consectetur ut laborum nisi dolor mollit culpa Lorem mollit do. Incididunt nostrud exercitation veniam exercitation ex et dolor esse laboris elit fugiat velit elit cillum."
     />
   );
