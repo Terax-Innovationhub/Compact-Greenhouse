@@ -8,22 +8,19 @@ import {
   Alert,
 } from 'react-native';
 import {SimpleCard} from '@paraboly/react-native-card';
-import react from 'react';
 
 export default function SensorCards() {
   let allCards = [
     {name: 'Sensor 1', type: 'Airsensor'},
     {name: 'Sensor 2', type: 'Watersensor'},
     {name: 'Sensor 3', type: 'Dirtsensor'},
+    {name: 'Sensor 4', type: 'Lightsensor'},
+    {name: 'Sensor 5', type: 'Test'},
   ];
 
-  for (let i = 0; i < allCards.length; i++) {
-    console.log(allCards[i]);
-    var cardsOnScreen = allCards.map(function (card) {
-      return <Card name={allCards[i].name} type={allCards[i].type} />;
-    });
-  }
-  return cardsOnScreen;
+  return allCards.map(card => (
+    <Card key={card.name} name={card.name} type={card.type} />
+  ));
 }
 
 function Card(props) {
