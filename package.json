@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@freakycoder/react-native-bounceable": "^0.2.5",
     "@paraboly/react-native-card": "^1.0.3",
     "@react-native-community/cli-platform-ios": "^6.1.0",
@@ -17,6 +20,8 @@
     "@react-navigation/material-top-tabs": "^6.0.6",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
+    "@types/jest": "^27.4.0",
+    "jest-fetch-mock": "^3.0.3",
     "react": "17.0.2",
     "react-native": "^0.66.0",
     "react-native-androw": "^0.0.34",
@@ -26,21 +31,26 @@
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.8.0",
     "react-native-tab-view": "^3.1.1",
+    "react-native-testing-library": "^6.0.0",
     "react-native-vector-icons": "^9.0.0",
     "react-navigation": "^4.4.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.16.7",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.6.3",
     "eslint": "7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.2",
-    "react-test-renderer": "17.0.2"
+    "react-test-renderer": "^17.0.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?@react-native|react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ],
+    "automock": false
   },
   "description": "Compact Greenhouse PWA",
   "main": "App.js",
