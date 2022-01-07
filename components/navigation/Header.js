@@ -4,6 +4,10 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import MyDashboard from '../screens/Dashboard';
 
+/**
+ *
+ * @returns all rooms from the screens
+ */
 function AllRooms() {
   return (
     <View
@@ -16,6 +20,10 @@ function AllRooms() {
   );
 }
 
+/**
+ * 
+ * @returns All sensors from the database
+ */
 function AllSensors() {
   return (
     <View

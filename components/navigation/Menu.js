@@ -7,6 +7,12 @@ import Notifications from '../screens/Notifications';
 
 const Drawer = createDrawerNavigator();
 
+
+/**
+ *
+ * @returns a menu like drawer that shows all the links
+ */
+
 export default function MyDrawer() {
   return (
     <Drawer.Navigator>
