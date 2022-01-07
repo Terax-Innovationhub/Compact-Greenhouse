@@ -21,7 +21,7 @@ function AllRooms() {
 }
 
 /**
- * 
+ *
  * @returns All sensors from the database
  */
 function AllSensors() {
